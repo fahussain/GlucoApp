@@ -54,6 +54,8 @@ As humans we always do better when we have support and we work with others. With
 ##Models
 #### User
 | Name          | Type          | 
+| ------------- | -------------:| 
+|
 |id  |  number |
 |last name  |  string |
 |first name  |  string |
