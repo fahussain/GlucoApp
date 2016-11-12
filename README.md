@@ -46,7 +46,8 @@ User stories
   * User can add an image to the message
   * User may choose to share the last reading as part of the message
   * The message can be posted as public or shared only with friends
-9. Settings
+9. Reminders and Notifications
+10. Settings
   * language selection
   * privacy and security include options
     1. Share everytime I record a reading (public/friends only)
