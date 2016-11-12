@@ -54,7 +54,7 @@ As humans we always do better when we have support and we work with others. With
 ##Models
 #### User
 | Name          | Type          | 
-| ------------- | -------------:| 
+| ------------- | --------------| 
 |
 |id  |  number |
 |last name  |  string |
@@ -72,7 +72,7 @@ As humans we always do better when we have support and we work with others. With
 
 ####Reading
 | Name          | Type          | 
-| ------------- | -------------:| 
+| ------------- | --------------| 
 id  | number |
 |type   | string enum (blood glucose, HbA1c) |
 |timestamp  | Date |
@@ -88,7 +88,7 @@ id  | number |
 
 ####Story
 | Name          | Type          | 
-| ------------- | -------------:| 
+| ------------- | --------------| 
 |id  |  |
 |timestamp  |  |
 |message (message object)  |  |
@@ -103,7 +103,7 @@ id  | number |
 
 ####Message
 | Name          | Type          | 
-| ------------- | -------------:| 
+| ------------- | --------------| 
 |id  | number |
 |timestamp  | Date |
 |text  | string |
