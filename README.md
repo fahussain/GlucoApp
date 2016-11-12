@@ -71,6 +71,8 @@ As humans we always do better when we have support and we work with others. With
 
 
 ####Reading
+| Name          | Type          | 
+| ------------- | -------------:| 
 id
 type (blood glucose, HbA1c)
 timestamp
@@ -85,6 +87,8 @@ shared_with [public/ friends only]
 
 
 Story:
+| Name          | Type          | 
+| ------------- | -------------:| 
 id
 timestamp
 message (message object)
@@ -98,6 +102,8 @@ shared_with [public/ friends only]
 
 
 Message:
+| Name          | Type          | 
+| ------------- | -------------:| 
 id
 timestamp
 text
