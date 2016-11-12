@@ -53,8 +53,8 @@ As humans we always do better when we have support and we work with others. With
 
 ##Models
 #### User
-| Name          | Type          | 
-| ------------- | --------------| 
+| Name          | Type          | Optional     |
+| ------------- | --------------| -------------|
 |id  |  number |
 |last name  |  string |
 |first name  |  string |
@@ -70,8 +70,8 @@ As humans we always do better when we have support and we work with others. With
 
 
 ####Reading
-| Name          | Type          | 
-| ------------- | --------------| 
+| Name          | Type          | Optional     |
+| ------------- | --------------| -------------|
 id  | number |
 |type   | string enum (blood glucose, HbA1c) |
 |timestamp  | Date |
@@ -86,8 +86,8 @@ id  | number |
 
 
 ####Story
-| Name          | Type          | 
-| ------------- | --------------| 
+| Name          | Type          | Optional     |
+| ------------- | --------------| -------------|
 |id  | number |
 |timestamp  | Date |
 |message  | Message Object |
@@ -101,8 +101,8 @@ id  | number |
 
 
 ####Message
-| Name          | Type          | 
-| ------------- | --------------| 
+| Name          | Type          | Optional     |
+| ------------- | --------------| -------------|
 |id  | number |
 |timestamp  | Date |
 |text  | string |
