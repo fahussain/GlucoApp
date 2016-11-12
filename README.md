@@ -17,4 +17,37 @@ User stories
   * Medication taken = Insulin, Oral
   * Any physical activity
   * Any additional note
-4. 
+4. Record HbA1c
+  * The actual reading
+  * Any note that can be saved as part of the reading
+  * The screen shows the last reading and the months/days since last reading
+5. View history of blood glucose readings 
+  1. Detail view
+    * daily/weekly/monthly
+    * Each reading should include the details of each reading
+    * Based on the time period selected there should be 
+  2. Summary view
+    * A graph of the time period selected
+    * Average of the time period selected
+    * Number of high readings
+    * Number of low readings
+    * Number of normal readings
+6. View history of HbA1c readings as a graph
+7. Home screen
+  * Includes a message at the top that gives a textual summary of their activity e.g.
+    1. Hi John Doe, you have been following the structure very rigorously. You are a warrior. Keep up the good work.
+    2. Hi John Doe, you have not recorded your blood glucose level for three days. Studies show that recording blood glucose levels regularly is a key step towards ensuring your long term health.
+    3. Hi John Doe, Your HbA1c test is due in another month. With the current discipline we expect you to have great results in your next test result.
+  * Shows a list of shared messages from other friends like a story feed. The user can "high five" the message or reply to it
+  * Each time a user records a reading it will show up in other members story feed. Depending upon how much information can be shared this message can be as short as "John Doe recorded their reading" or it may have additional information as to what the actual reading was and what other details were recorded as part of the reading.
+  * Upon clicking the user's profile image the feed will show messages by only that particular user.
+8. Post a message
+  * User can post a shared message that will show in other members story feed
+  * User can add an image to the message
+  * User may choose to share the last reading as part of the message
+  * The message can be posted as public or shared only with friends
+9. Settings
+  * language selection
+  * privacy and security include options
+    1. Share everytime I record a reading (public/friends only)
+    2. Share everytime I record an HbA1c reading (public/ friends only)
