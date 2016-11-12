@@ -52,9 +52,8 @@ As humans we always do better when we have support and we work with others. With
     2. Share everytime I record an HbA1c reading (public/ friends only)
 
 ##Models
+#### User
 | Name          | Type          | 
-| ------------- | -------------:| 
-|
 |id  |  number |
 |last name  |  string |
 |first name  |  string |
@@ -69,7 +68,7 @@ As humans we always do better when we have support and we work with others. With
 |last logged in  |  Date |
 
 
-Reading:
+####Reading
 id
 type (blood glucose, HbA1c)
 timestamp
