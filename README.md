@@ -11,10 +11,10 @@ User stories
 1. A user can register using email and password
 2. A user can login to the app using registered email and password
 3. A user can record a blood glucose reading that would include:
-..* Timestamp of the reading
-..* Actual measurement
-..* Context of reading: Before breakfast, Before meal/snack, After meal/snack, General. In case of after meal record amount of carbs taken in the meal
-..* Medication taken = Insulin, Oral
-..* Any physical activity
-..* Any additional note
+  * Timestamp of the reading
+  * Actual measurement
+  * Context of reading: Before breakfast, Before meal/snack, After meal/snack, General. In case of after meal record amount of carbs taken in the meal
+  * Medication taken = Insulin, Oral
+  * Any physical activity
+  * Any additional note
 4. 
