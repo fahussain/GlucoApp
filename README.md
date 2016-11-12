@@ -55,7 +55,6 @@ As humans we always do better when we have support and we work with others. With
 #### User
 | Name          | Type          | 
 | ------------- | --------------| 
-|
 |id  |  number |
 |last name  |  string |
 |first name  |  string |
@@ -89,16 +88,16 @@ id  | number |
 ####Story
 | Name          | Type          | 
 | ------------- | --------------| 
-|id  |  |
-|timestamp  |  |
-|message (message object)  |  |
-|liked  |  |
-|replied  |  |
-|reading (contains a reading object if it has a reading attached)  |  |
-|user (posted by user)  |  |
-|like_count  |  |
-|shared [true, false]  |  |
-|shared_with [public/ friends only]  |  |
+|id  | number |
+|timestamp  | Date |
+|message  | Message Object |
+|liked  | boolean |
+|replied  | boolean |
+|reading  | Reading Object |
+|user (posted by user)  | User Object |
+|like_count  | number |
+|shared   | boolean |
+|shared_with  | boolean |
 
 
 ####Message
@@ -107,5 +106,4 @@ id  | number |
 |id  | number |
 |timestamp  | Date |
 |text  | string |
-|in_reply_to (story)  | story object |
-|  |  |
+|in_reply_to   | story object |
