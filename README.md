@@ -52,20 +52,21 @@ As humans we always do better when we have support and we work with others. With
     2. Share everytime I record an HbA1c reading (public/ friends only)
 
 ##Models
-
-User:
-id
-last name
-first name
-username
-email
-password
-date joined
-profile image
-profession
-friends: [list of users]
-last modified
-last logged in
+| Name          | Type          | 
+| ------------- | -------------:| 
+|
+|id  |  number |
+|last name  |  string |
+|first name  |  string |
+|username  |  string |
+|email  |  string |
+|password  |  string |
+|date joined  |  Date |
+|profile image  |  ?? (how does parse handle images)|
+|profession  |  string (perhaps an enum)|
+|friends:   |  [list of users] |
+|last modified  |  Date |
+|last logged in  |  Date |
 
 
 Reading:
