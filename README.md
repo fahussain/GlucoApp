@@ -73,38 +73,39 @@ As humans we always do better when we have support and we work with others. With
 ####Reading
 | Name          | Type          | 
 | ------------- | -------------:| 
-id
-type (blood glucose, HbA1c)
-timestamp
-value
-medication_type
-context: [Before Breakfast, Before meal/snack, After meal/snack, General]
-carbs_taken: integer value
-physical_activity [none, mild, moderate, high]
-note
-shared [true, false]
-shared_with [public/ friends only]
+id  | number |
+|type   | string enum (blood glucose, HbA1c) |
+|timestamp  | Date |
+|value  | number |
+|medication_type  | string enum (insulin, oral) |
+|context   | string enum (Before Breakfast, Before meal/snack, After meal/snack, General) |
+|carbs_taken  | integer |
+|physical_activity  | string enum  (none, mild, moderate, high) |
+|note  | string |
+|shared  | boolean |
+|shared_with  | [public/ friends only] |
 
 
-Story:
+####Story
 | Name          | Type          | 
 | ------------- | -------------:| 
-id
-timestamp
-message (message object)
-liked
-replied
-reading (contains a reading object if it has a reading attached)
-user (posted by user)
-like_count
-shared [true, false]
-shared_with [public/ friends only]
+|id  |  |
+|timestamp  |  |
+|message (message object)  |  |
+|liked  |  |
+|replied  |  |
+|reading (contains a reading object if it has a reading attached)  |  |
+|user (posted by user)  |  |
+|like_count  |  |
+|shared [true, false]  |  |
+|shared_with [public/ friends only]  |  |
 
 
-Message:
+####Message
 | Name          | Type          | 
 | ------------- | -------------:| 
-id
-timestamp
-text
-in_reply_to (story)
+|id  | number |
+|timestamp  | Date |
+|text  | string |
+|in_reply_to (story)  | story object |
+|  |  |
