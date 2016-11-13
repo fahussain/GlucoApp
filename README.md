@@ -5,6 +5,26 @@ Imagine you have just discovered that you are diabetic and you would need to car
 As humans we always do better when we have support and we work with others. With GlucoApp you can not only record and monitor your own blood glucose, food intake, medication but also can share that information with the other people who are suffering from the same condition. You can share tips and information that is working for you and follow others who have proven to manage their own diabetes well over a long period of time. The idea of this app is to let the community support and motivate each other to live healthy with this condition. The app would also try to keep the users motivated by rewarding good habbits and will improve your ranking to have more influence in the community. 
 
 ##Features
+1. Login (Required)
+  * User downloads the app and opens it the first time
+  * Present with the login/registration screen
+  * The user enters the email and password and clicks on register
+  * At this state the user has preregistered and would need to be presented a Full registration screen
+  * Full registration/Profile information screen will be presentented that asks
+  First name, last name, gender(optional), phone number(optional), profile picture(optional)
+  This screen will have a Save button (no cancel action will be provided)
+  Upon Save the user is navigated to the home screen
+
+2. Login with identity provider(Optional)
+  * The user is on the login screen and is not registered yet
+  * The login screen would have buttons to login with 
+  - facebook
+  - google
+  - any other oauth providers
+  * User clicks on of the buttons to login with an identity provider
+  * Using Oauth fetch the user details and populate in our own db
+  * Take the user to home screen
+  
 3. A user can record a blood glucose reading that would include:
   * Timestamp of the reading
   * Actual measurement
