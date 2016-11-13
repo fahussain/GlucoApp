@@ -24,7 +24,7 @@ As humans we always do better when we have support and we work with others. With
   * User clicks on of the buttons to login with an identity provider
   * Using Oauth fetch the user details and populate in our own db
   * Take the user to home screen
-  
+
 3. A user can record a blood glucose reading that would include:
   * Timestamp of the reading
   * Actual measurement
@@ -36,6 +36,14 @@ As humans we always do better when we have support and we work with others. With
   * The actual reading
   * Any note that can be saved as part of the reading
   * The screen shows the last reading and the months/days since last reading
+5. Trend View
+  * The user is logged in and wants to see the history
+  * Take the user to the history view which contains two sections
+  * Section 1 will have a pie chart at the top
+  * Section 2 Line graph at the bottom
+  * The pie chart would update based on the period selection from the line chart
+  * The pie chart would have highs, lows and normals as the sections
+  * Example: <imgr style="height:400px" src="http://a4.files.theultralinx.com/image/upload/c_fit,cs_srgb,dpr_2.0,q_40,w_620/MTI5MDIyNTEzMDEwMjE4MjU4.jpg"/>
 5. View history of blood glucose readings 
   1. Detail view
     * daily/weekly/monthly
