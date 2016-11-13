@@ -43,7 +43,7 @@ As humans we always do better when we have support and we work with others. With
   * Section 2 Line graph at the bottom
   * The pie chart would update based on the period selection from the line chart
   * The pie chart would have highs, lows and normals as the sections
-  * Example: <imgr style="height:400px" src="http://a4.files.theultralinx.com/image/upload/c_fit,cs_srgb,dpr_2.0,q_40,w_620/MTI5MDIyNTEzMDEwMjE4MjU4.jpg"/>
+  * Example: <img style="height:400px" src="http://a4.files.theultralinx.com/image/upload/c_fit,cs_srgb,dpr_2.0,q_40,w_620/MTI5MDIyNTEzMDEwMjE4MjU4.jpg">
 5. View history of blood glucose readings 
   1. Detail view
     * daily/weekly/monthly
@@ -55,7 +55,7 @@ As humans we always do better when we have support and we work with others. With
     * Number of high readings
     * Number of low readings
     * Number of normal readings
-    * Example of graphs: http://a4.files.theultralinx.com/image/upload/c_fit,cs_srgb,dpr_2.0,q_40,w_620/MTI5MDIyNTEzMDEwMjE4MjU4.jpg
+    * ![Example of a graph](http://a4.files.theultralinx.com/image/upload/c_fit,cs_srgb,dpr_2.0,q_40,w_620/MTI5MDIyNTEzMDEwMjE4MjU4.jpg)
 6. View history of HbA1c readings as a graph
 7. Home screen
   * Includes a message at the top that gives a textual summary of their activity e.g.
