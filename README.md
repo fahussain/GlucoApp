@@ -77,7 +77,8 @@ As humans we always do better when we have support and we work with others. With
   * Privacy and security include options
     1. Share everytime I record a reading (public/friends only)
     2. Share everytime I record an HbA1c reading (public/ friends only)
-
+11. Profile View
+  * ![Example screen](https://d13yacurqjgara.cloudfront.net/users/198986/screenshots/1367326/dribbble.jpg)
 ##Models
 #### User
 | Name          | Type          | Required     |
