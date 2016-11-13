@@ -14,7 +14,7 @@ As humans we always do better when we have support and we work with others. With
   First name, last name, gender(optional), phone number(optional), profile picture(optional)
   This screen will have a Save button (no cancel action will be provided)
   Upon Save the user is navigated to the home screen
-  * Example of login screen: ![Login screen](https://s-media-cache-ak0.pinimg.com/564x/4a/77/02/4a7702ef781394369a77a30c00a1edeb.jpg =250x)
+  * Example of login screen: ![Login screen](https://s-media-cache-ak0.pinimg.com/564x/4a/77/02/4a7702ef781394369a77a30c00a1edeb.jpg =200x)
 
 2. Login with identity provider(Optional)
   * The user is on the login screen and is not registered yet
@@ -44,7 +44,7 @@ As humans we always do better when we have support and we work with others. With
   * Section 2 Line graph at the bottom
   * The pie chart would update based on the period selection from the line chart
   * The pie chart would have highs, lows and normals as the sections
-  * Example: <img style="max-width:50%" src="http://a4.files.theultralinx.com/image/upload/c_fit,cs_srgb,dpr_2.0,q_40,w_620/MTI5MDIyNTEzMDEwMjE4MjU4.jpg">
+  * Example: ![](http://a4.files.theultralinx.com/image/upload/c_fit,cs_srgb,dpr_2.0,q_40,w_620/MTI5MDIyNTEzMDEwMjE4MjU4.jpg =250x>
 5. View history of blood glucose readings 
   1. Detail view
     * daily/weekly/monthly
