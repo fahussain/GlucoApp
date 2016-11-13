@@ -47,6 +47,7 @@ As humans we always do better when we have support and we work with others. With
     * Number of high readings
     * Number of low readings
     * Number of normal readings
+    * Example of graphs: http://a4.files.theultralinx.com/image/upload/c_fit,cs_srgb,dpr_2.0,q_40,w_620/MTI5MDIyNTEzMDEwMjE4MjU4.jpg
 6. View history of HbA1c readings as a graph
 7. Home screen
   * Includes a message at the top that gives a textual summary of their activity e.g.
