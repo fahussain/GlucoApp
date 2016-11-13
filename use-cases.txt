@@ -47,3 +47,27 @@ Use case 5: Trend View
 	- Section 2 Line graph at the bottom
 	- The pie chart would update based on the period selection from the line chart
 	- The pie chart would have highs, lows and normals as the sections
+
+
+
+1. Login (Required)
+  * User downloads the app and opens it the first time
+  * Present with the login/registration screen
+  * The user enters the email and password and clicks on register
+  * At this state the user has preregistered and would need to be presented a Full registration screen
+  * Full registration/Profile information screen will be presentented that asks
+	First name, last name, gender(optional), phone number(optional), profile picture(optional)
+	This screen will have a Save button (no cancel action will be provided)
+	Upon Save the user is navigated to the home screen
+
+2. Login with identity provider(Optional)
+  * The user is on the login screen and is not registered yet
+  * The login screen would have buttons to login with 
+	- facebook
+	- google
+	- any other oauth providers
+  * User clicks on of the buttons to login with an identity provider
+  * Using Oauth fetch the user details and populate in our own db
+  * Take the user to home screen
+
+
